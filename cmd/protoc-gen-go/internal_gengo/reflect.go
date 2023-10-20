@@ -10,13 +10,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/compiler/protogen"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protopath"
-	"google.golang.org/protobuf/reflect/protorange"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/taogames/protobuf-go/compiler/protogen"
+	"github.com/taogames/protobuf-go/proto"
+	"github.com/taogames/protobuf-go/reflect/protopath"
+	"github.com/taogames/protobuf-go/reflect/protorange"
+	"github.com/taogames/protobuf-go/reflect/protoreflect"
 
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/taogames/protobuf-go/types/descriptorpb"
 )
 
 func genReflectFileDescriptor(gen *protogen.Plugin, g *protogen.GeneratedFile, f *fileInfo) {

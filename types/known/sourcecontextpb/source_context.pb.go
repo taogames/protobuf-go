@@ -34,8 +34,8 @@
 package sourcecontextpb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/taogames/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/taogames/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

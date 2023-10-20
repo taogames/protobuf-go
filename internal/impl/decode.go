@@ -7,13 +7,13 @@ package impl
 import (
 	"math/bits"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/taogames/protobuf-go/encoding/protowire"
+	"github.com/taogames/protobuf-go/internal/errors"
+	"github.com/taogames/protobuf-go/internal/flags"
+	"github.com/taogames/protobuf-go/proto"
+	"github.com/taogames/protobuf-go/reflect/protoreflect"
+	"github.com/taogames/protobuf-go/reflect/protoregistry"
+	"github.com/taogames/protobuf-go/runtime/protoiface"
 )
 
 var errDecode = errors.New("cannot parse invalid wire-format data")

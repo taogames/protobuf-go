@@ -5,15 +5,15 @@
 package proto
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/taogames/protobuf-go/encoding/protowire"
+	"github.com/taogames/protobuf-go/internal/encoding/messageset"
+	"github.com/taogames/protobuf-go/internal/errors"
+	"github.com/taogames/protobuf-go/internal/flags"
+	"github.com/taogames/protobuf-go/internal/genid"
+	"github.com/taogames/protobuf-go/internal/pragma"
+	"github.com/taogames/protobuf-go/reflect/protoreflect"
+	"github.com/taogames/protobuf-go/reflect/protoregistry"
+	"github.com/taogames/protobuf-go/runtime/protoiface"
 )
 
 // UnmarshalOptions configures the unmarshaler.

@@ -34,10 +34,10 @@
 package apipb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	sourcecontextpb "google.golang.org/protobuf/types/known/sourcecontextpb"
-	typepb "google.golang.org/protobuf/types/known/typepb"
+	protoreflect "github.com/taogames/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/taogames/protobuf-go/runtime/protoimpl"
+	sourcecontextpb "github.com/taogames/protobuf-go/types/known/sourcecontextpb"
+	typepb "github.com/taogames/protobuf-go/types/known/typepb"
 	reflect "reflect"
 	sync "sync"
 )

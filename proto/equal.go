@@ -7,7 +7,7 @@ package proto
 import (
 	"reflect"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/taogames/protobuf-go/reflect/protoreflect"
 )
 
 // Equal reports whether two messages are equal,

@@ -5,13 +5,13 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/taogames/protobuf-go/encoding/protowire"
+	"github.com/taogames/protobuf-go/internal/flags"
+	"github.com/taogames/protobuf-go/proto"
+	"github.com/taogames/protobuf-go/testing/protopack"
 
-	messagesetpb "google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb"
-	msetextpb "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb"
+	messagesetpb "github.com/taogames/protobuf-go/internal/testprotos/messageset/messagesetpb"
+	msetextpb "github.com/taogames/protobuf-go/internal/testprotos/messageset/msetextpb"
 )
 
 func init() {

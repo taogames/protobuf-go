@@ -12,15 +12,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoimpl"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/taogames/protobuf-go/proto"
+	"github.com/taogames/protobuf-go/reflect/protoreflect"
+	"github.com/taogames/protobuf-go/runtime/protoimpl"
+	"github.com/taogames/protobuf-go/testing/protocmp"
 
-	legacy1pb "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
-	descpb "google.golang.org/protobuf/types/descriptorpb"
+	legacy1pb "github.com/taogames/protobuf-go/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/taogames/protobuf-go/internal/testprotos/test"
+	test3pb "github.com/taogames/protobuf-go/internal/testprotos/test3"
+	descpb "github.com/taogames/protobuf-go/types/descriptorpb"
 )
 
 func TestExtensionFuncs(t *testing.T) {
