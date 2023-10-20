@@ -723,7 +723,12 @@ func fieldDefaultValue(g *protogen.GeneratedFile, f *fileInfo, m *messageInfo, f
 }
 
 func fieldJSONTagValue(field *protogen.Field) string {
-	return string(field.Desc.Name()) + ",omitempty"
+	if field.Desc.Kind() == protoreflect.Int64Kind || field.Desc.Kind() == protoreflect.Sint64Kind || field.Desc.Kind() == protoreflect.Uint64Kind ||
+		field.Desc.Kind() == protoreflect.Sfixed64Kind || field.Desc.Kind() == protoreflect.Fixed64Kind {
+		return string(field.Desc.Name()) + ",string,omitempty"
+	} else {
+		return string(field.Desc.Name()) + ",omitempty"
+	}
 }
 
 func genExtensions(g *protogen.GeneratedFile, f *fileInfo) {
